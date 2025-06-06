@@ -47,13 +47,13 @@ const Index = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 p-4">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 p-4">
+      <div className="max-w-6xl mx-auto animate-fade-in">
         <header className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            Система модерации статей
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 bg-clip-text text-transparent mb-4 animate-gold-shimmer bg-[length:1000px_100%]">
+            ✨ Система модерации статей
           </h1>
-          <p className="text-gray-600">
+          <p className="text-gold-200 text-lg">
             Отправляйте статьи на модерацию и управляйте процессом проверки
           </p>
         </header>
